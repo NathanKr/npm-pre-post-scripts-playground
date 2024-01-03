@@ -4,9 +4,9 @@
   "description": "<h2>Introduction</h2>\r pre \\ post script are usefull to perform before or after other script like build",
   "main": "index.js",
   "scripts": {
-    "predev" : "node scripts/script-pre.js",
+    "predev": "ts-node scripts/script-pre.ts",
     "dev": "node index.js",
-    "postdev" : "node scripts/script-post.js"
+    "postdev": "ts-node scripts/script-post.ts"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/NathanKr/npm-pre-post-scripts-playground/issues"
   },
-  "homepage": "https://github.com/NathanKr/npm-pre-post-scripts-playground#readme"
+  "homepage": "https://github.com/NathanKr/npm-pre-post-scripts-playground#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
 }
