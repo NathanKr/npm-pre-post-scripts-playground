@@ -1,0 +1,1 @@
+# npm-pre-post-scripts-playground
